@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
     Simple ceaser cipher
     Alexander Fielding
@@ -9,3 +10,4 @@
 '''
 
 #testing my first commit!
+print("TESTING")
