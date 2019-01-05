@@ -9,3 +9,19 @@
 '''
 
 #testing my first commit!
+
+def writeToFile():
+
+    filename = input("Enter the file name (case sensitive)")
+    file = open(filename, 'w')
+
+    msg = input("enter message \n")
+
+    file.write(msg)
+
+    file.close()
+
+
+#Main
+
+writeToFile()
